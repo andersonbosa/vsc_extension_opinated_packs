@@ -2,7 +2,7 @@
   "name": "vsc-opinated-nodejs",
   "displayName": "Opinated Node.js pack",
   "description": "A ready-to-use, practical and useful extension pack for Node.js.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "CC0-1.0",
   "icon": "icon.png",
   "repository": {
