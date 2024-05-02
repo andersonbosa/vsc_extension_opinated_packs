@@ -1,21 +1,61 @@
-# Welcome to your VS Code Extension Pack
+# Opinated Essentials Pack
 
-## What's in the folder
+A package of extensions ready for use in the day-to-day tech person.
+You won't have to look for anything else out there.
 
-* This folder contains all of the files necessary for your extension pack.
-* `package.json` - this is the manifest file that defines the list of extensions of the extension pack.
+## Included Extensions
 
-## Get up and running straight away
+This extension pack includes the following VS Code extensions:
 
-* Press `F5` to open a new window with your extension loaded.
-* Open `Extensions Viewlet` and check your extensions are installed.
+#### Tools
 
-## Make changes
+- [pomdtr.excalidraw-editor](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
+- [AmazonWebServices.amazon-q-vscode](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.amazon-q-vscode)
+- [github.vscode-github-actions](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions)
+- [GitHub.vscode-pull-request-github](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [humao.rest-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- [MS-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- [vsls-contrib.gistfs](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
+- [eamodio.gitllens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- [hashicorp.terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
 
-* You can relaunch the extension from the debug toolbar after making changes to the files listed above.
-* You can also reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to load your changes.
+#### Syntaxes and formaters
+- [bierner.comment-tagged-templates](https://marketplace.visualstudio.com/items?itemName=bierner.comment-tagged-templates)
+- [mechatroner.rainbow-csv](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- [jeff-hykin.better-dockerfile-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
+- [jeff-hykin.better-shellscript-syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
+- [magicstack.MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
+- [tamasfe.even-better-toml](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+- [adpyke.vscode-sql-formatter](https://marketplace.visualstudio.com/items?itemName=adpyke.vscode-sql-formatter)
 
-## Install your extension
+#### Themes
+- [qufiwefefwoyn.kanagawa](https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa)
+- [enkia.tokyo-night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
+- [dracula-theme.theme-dracula](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
+- [Equinusocio.vsc-material-theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+- [evondev.indent-rainbow-palettes](https://marketplace.visualstudio.com/items?itemName=evondev.indent-rainbow-palettes)
+- [PKief.material-icon-theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+#### Utilities
+- [helixquar.randomeverything](https://marketplace.visualstudio.com/items?itemName=helixquar.randomeverything)
+- [bierner.emojisense](https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
+- [oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [funkyremi.vscode-google-translate](https://marketplace.visualstudio.com/items?itemName=funkyremi.vscode-google-translate)
+
+
+## 🤝 Contribution
+
+All kinds of contributions are very welcome and appreciated!
+
+## 📝 License
+
+This project is under the [public domain](LICENSE.md) license.
+
+---
+
+<h4>  
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/vsc_opinated_extension_packs?style=social">
+  | Did you like the repository? Give it a star! 😁
+</h4>

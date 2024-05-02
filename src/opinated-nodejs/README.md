@@ -1,16 +1,31 @@
-# opinated-nodejs README
+# Opinated Node.js Pack 
 
-## Working with Markdown
+A pack of extensions ready for use in the day-to-day of Node.js developers.
+You won't have to look for anything else out there.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Included Extensions
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+This extension pack includes the following VS Code extensions:
 
-## For more information
+- [christian-kohler.npm-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [infeng.vscode-react-typescript](https://marketplace.visualstudio.com/items?itemName=infeng.vscode-react-typescript)
+- [mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [sburg.vscode-javascript-booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster)
+- [stringham.move-ts](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
+- [YoavBls.pretty-ts-errors](https://marketplace.visualstudio.com/items?itemName=YoavBls.pretty-ts-errors)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 🤝 Contribution
 
-**Enjoy!**
+All kinds of contributions are very welcome and appreciated!
+
+## 📝 License
+
+This project is under the [public domain](LICENSE.md) license.
+
+---
+
+<h4>  
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/vsc_opinated_extension_packs?style=social">
+  | Did you like the repository? Give it a star! 😁
+</h4>

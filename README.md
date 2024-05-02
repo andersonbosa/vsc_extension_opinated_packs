@@ -41,20 +41,16 @@ Here you also found a collection of some sample models for you to use in your pr
 
 ## 🤝 Contribution
 
-<p>
-  This project is for study purposes too, so please send me a message telling me what you are doing and why you are doing it, teach me what you know. All kinds of contributions are very welcome and appreciated!
-</p>
-
+  All kinds of contributions are very welcome and appreciated!
 
 
 ## 📝 License
 
 This project is under the [public domain](LICENSE.md) license.
 
-
 ---
 
 <h4>  
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/dothub?style=social">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/vsc_opinated_extension_packs?style=social">
   | Did you like the repository? Give it a star! 😁
 </h4>
