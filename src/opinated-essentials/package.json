@@ -17,11 +17,12 @@
   "engines": {
     "vscode": "^1.88.0"
   },
+  "publisher": "andersonbosa",
   "categories": [
     "Extension Packs"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "vsce publish patch"
   },
   "devDependencies": {
     "vsce": "^2.15.0"
@@ -54,6 +55,7 @@
     "pomdtr.excalidraw-editor",
     "qufiwefefwoyn.kanagawa",
     "tamasfe.even-better-toml",
+    "VisualStudioExptTeam.vscodeintellicode",
     "vsls-contrib.gistfs"
   ]
 }

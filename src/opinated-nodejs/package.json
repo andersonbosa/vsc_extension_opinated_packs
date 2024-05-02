@@ -14,6 +14,7 @@
     "vscode",
     "extension-pack"
   ],
+  "publisher": "andersonbosa",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -21,7 +22,7 @@
     "Extension Packs"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "vsce publish patch"
   },
   "devDependencies": {
     "vsce": "^2.15.0"
