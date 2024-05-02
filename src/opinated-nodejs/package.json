@@ -1,0 +1,26 @@
+{
+  "name": "opinated-nodejs",
+  "displayName": "opinated nodejs",
+  "description": "A ready-to-use, practical and useful extension pack for Node.js.",
+  "version": "0.0.1",
+  "license": "CC0-1.0",
+  "repository": {
+    "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-nodejs"
+  },
+  "author": {
+    "name": "Anderson Bosa"
+  },
+  "keywords": [
+    "vscode",
+    "extension-pack"
+  ],
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "publisher.extensionName"
+  ]
+}

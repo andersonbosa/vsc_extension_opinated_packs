@@ -12,7 +12,7 @@ To make the process as smooth as possible, please follow the guidelines below.
 1. Fork the repository and clone it to your local machine.
 
 ```bash
-git clone https://github.com/your-username/repository.git
+git clone https://github.com/andersonbosa/vsc_opinated_extension_packs.git
 ```
 
 2. Create a new branch for your contribution.

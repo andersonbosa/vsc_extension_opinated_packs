@@ -1,0 +1,61 @@
+on:
+   push:
+     branches:
+       - main
+
+name: release-please
+
+permissions: {}
+
+jobs:
+  release-please:
+    permissions:
+      contents: write # to create release commit (google-github-actions/release-please-action)
+      pull-requests: write # to create release PR (google-github-actions/release-please-action)
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v4.1.0
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
+          
+      - uses: actions/checkout@v4.1.4
+      
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 20
+          
+      - run: npm install npm@latest -g
+      
+      - run: npm install
+      
+      - run: npm run compile
+      
+      - name: push npm release
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote add gh-token "https://${{ secrets.GITHUB_TOKEN}}@github.com/andersonbosa/vsc_opinated_extension_packs.git"
+          git checkout -b npm
+          git add -f build
+          git commit -a -m 'chore: ${{ steps.release.outputs.tag_name }} release'
+          git push origin +npm
+          git tag -a ${{ steps.release.outputs.tag_name }}-npm -m 'chore: ${{ steps.release.outputs.tag_name }} release'
+          git push origin ${{ steps.release.outputs.tag_name }}-npm
+        if: ${{ steps.release.outputs.release_created }}
+        
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 14
+          registry-url: 'https://external-dot-oss-automation.appspot.com/'
+        if: ${{ steps.release.outputs.release_created }}
+        
+      - run: npm install
+        if: ${{ steps.release.outputs.release_created }}
+        
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
