@@ -2,7 +2,7 @@
   "name": "opinated-nodejs",
   "displayName": "Opinated Node.js pack",
   "description": "A ready-to-use, practical and useful extension pack for Node.js.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "CC0-1.0",
   "repository": {
     "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-nodejs"
@@ -27,5 +27,12 @@
     "vsce": "^2.15.0"
   },
   "extensionPack": [
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "infeng.vscode-react-typescript",
+    "mikestead.dotenv",
+    "sburg.vscode-javascript-booster",
+    "stringham.move-ts",
+    "YoavBls.pretty-ts-errors"
   ]
 }

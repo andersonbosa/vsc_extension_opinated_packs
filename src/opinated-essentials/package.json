@@ -1,8 +1,8 @@
 {
   "name": "opinated-essentials",
   "displayName": "Opinated Essentials pack",
-  "description": "A ready-to-use, practical and useful extension pack for Node.js.",
-  "version": "0.0.1",
+  "description": "A ready-to-use, practical and useful extension pack for developers.",
+  "version": "0.0.2",
   "license": "CC0-1.0",
   "repository": {
     "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-essentials"
@@ -27,5 +27,33 @@
     "vsce": "^2.15.0"
   },
   "extensionPack": [
+    "adpyke.vscode-sql-formatter",
+    "AmazonWebServices.amazon-q-vscode",
+    "bierner.comment-tagged-templates",
+    "bierner.emojisense",
+    "christian-kohler.path-intellisense",
+    "dracula-theme.theme-dracula",
+    "eamodio.gitlens",
+    "enkia.tokyo-night",
+    "Equinusocio.vsc-material-theme",
+    "evondev.indent-rainbow-palettes",
+    "funkyremi.vscode-google-translate",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+    "hashicorp.terraform",
+    "helixquar.randomeverything",
+    "humao.rest-client",
+    "jeff-hykin.better-dockerfile-syntax",
+    "jeff-hykin.better-shellscript-syntax",
+    "magicstack.MagicPython",
+    "mechatroner.rainbow-csv",
+    "ms-azuretools.vscode-docker",
+    "MS-vsliveshare.vsliveshare",
+    "oderwat.indent-rainbow",
+    "PKief.material-icon-theme",
+    "pomdtr.excalidraw-editor",
+    "qufiwefefwoyn.kanagawa",
+    "tamasfe.even-better-toml",
+    "vsls-contrib.gistfs"
   ]
 }
