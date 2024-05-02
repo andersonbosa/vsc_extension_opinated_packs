@@ -21,7 +21,7 @@
     "Extension Packs"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "publish": "npm publish --public && vsce publish"
   },
   "devDependencies": {
     "vsce": "^2.15.0"
