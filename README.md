@@ -20,29 +20,17 @@
 
 ---
 
-
 ## About
 
-It is a repository that aims to be an example of good practices in the software organization, their documentation and auxiliary tools.
-
-Here you also found a collection of some sample models for you to use in your projects. Among them are, for example:
-
-* Github templates
-* Github workflows
-  * Application security testing samples
-  * Github Pages deploys
-
-
+TBD
 
 ## Getting Started
 
 * Checkout the [documentation](docs/getting-started.md)
 
-
 ## 🤝 Contribution
 
   All kinds of contributions are very welcome and appreciated!
-
 
 ## 📝 License
 
