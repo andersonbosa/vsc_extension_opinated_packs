@@ -1,11 +1,11 @@
 {
-  "name": "opinated-nodejs",
-  "displayName": "Opinated Node.js pack",
+  "name": "opinated-essentials",
+  "displayName": "Opinated Essentials pack",
   "description": "A ready-to-use, practical and useful extension pack for Node.js.",
   "version": "0.0.1",
   "license": "CC0-1.0",
   "repository": {
-    "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-nodejs"
+    "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-essentials"
   },
   "author": {
     "name": "Anderson Bosa"
