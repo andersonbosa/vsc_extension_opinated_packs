@@ -4,6 +4,7 @@
   "description": "A ready-to-use, practical and useful extension pack for Node.js.",
   "version": "0.0.2",
   "license": "CC0-1.0",
+  "icon": "icon.png",
   "repository": {
     "url": "https://github.com/andersonbosa/vsc_opinated_extension_packs/blob/main/src/opinated-nodejs"
   },
